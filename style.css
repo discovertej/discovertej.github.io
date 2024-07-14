@@ -37,8 +37,8 @@ nav button {
     font-size: 1.2em;
     cursor: pointer;
     padding: 5px 10px;
-    transition: transform 0.3s, color 0.3s;
-    border-radius: 10px;
+    transition: transform 0.7s, color 0.7s;
+    border-radius: 30px;
     text-align: left;
 }
 
@@ -48,7 +48,7 @@ nav button:hover {
 }
 
 .content-section {
-    display: none;
+    display: Interest;
     padding: 20px;
     margin: 20px;
     background: rgba(255, 255, 255, 0.1);
@@ -60,7 +60,7 @@ nav button:hover {
 
 @keyframes popUp {
     0% { transform: scale(0.5); opacity: 0; }
-    100% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(3); opacity: 1; }
 }
 
 footer {
@@ -74,10 +74,10 @@ footer {
 }
 
 footer img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin: 0 10px;
-    transition: transform 0.3s;
+    transition: transform 0.7s;
 }
 
 footer img:hover {
