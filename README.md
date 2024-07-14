@@ -1,6 +1,6 @@
+
 <html lang="en">
-<head><link rel="stylesheet" href="style.css">
-    
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover Tej</title>
@@ -8,20 +8,39 @@
 </head>
 <body>
     <header>
-        <h1>Discover Tej</h1>
+        <h1>Welcome to Discover Tej</h1>
     </header>
+
     <nav>
-        <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Projects</a> | <a href="#">Contact</a>
+        <button class="toggle-section" data-section="about">About</button>
+        <button class="toggle-section" data-section="projects">Projects</button>
+        <button class="toggle-section" data-section="contact">Contact</button>
     </nav>
-    <main class="container">
-        <h2>Welcome to My Calm and Pleasant Themed Site</h2>
-        <p>This is a sample paragraph. Add your content here.</p>
-        <img src="images/pleasant-image.jpg" alt="Pleasant Image">
-    </main>
+
+    <section id="about" class="content-section hidden">
+        <h2>About</h2>
+        <p>This is the about section.</p>
+    </section>
+
+    <section id="projects" class="content-section hidden">
+        <h2>Projects</h2>
+        <p>This is the projects section.</p>
+    </section>
+
+    <section id="contact" class="content-section hidden">
+        <h2>Contact</h2>
+        <p>This is the contact section.</p>
+    </section>
+
     <footer>
         <p>&copy; 2024 Discover Tej</p>
+        <p>
+            <a href="https://twitter.com/yourhandle">Twitter</a> |
+            <a href="https://linkedin.com/in/yourhandle">LinkedIn</a> |
+            <a href="https://github.com/yourhandle">GitHub</a>
+        </p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
-    
