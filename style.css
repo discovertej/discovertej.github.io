@@ -1,5 +1,7 @@
 /* Import the retro pixelated font */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+</style>;
 
 body {
     background-color: #000000; /* Pitch black background */
@@ -8,7 +10,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Prevent horizontal scroll */
-}
+    }
+    
 
 header {
     display: flex;
