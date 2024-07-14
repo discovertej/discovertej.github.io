@@ -4,25 +4,28 @@ body {
     font-family: 'Arial', sans-serif;
     text-align: center;
     padding: 20px;
-    background-image: url('retropattern.jpg');
-    background-repeat: repeat;
+    background-image: url('retropattern.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the background image covers the entire page */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed in place */
+    background-position: center; /* Centers the background image */
 }
 
 header {
-    background-color: #add8e6; /* Light blue */
+    background-color: rgba(173, 216, 230, 0.8); /* Light blue with transparency */
     border-bottom: 2px solid #87ceeb; /* Sky blue */
     padding: 10px;
 }
 
 nav {
-    background-color: #b0e0e6; /* Powder blue */
+    background-color: rgba(176, 224, 230, 0.8); /* Powder blue with transparency */
     border: 1px solid #87ceeb; /* Sky blue */
     padding: 10px;
     margin: 10px 0;
 }
 
 footer {
-    background-color: #add8e6; /* Light blue */
+    background-color: rgba(173, 216, 230, 0.8); /* Light blue with transparency */
     border-top: 2px solid #87ceeb; /* Sky blue */
     padding: 10px;
     position: fixed;
@@ -47,13 +50,16 @@ button:hover {
 }
 
 img {
-    width: 100px;
+    width: 300px; /* Adjust the size */
     height: auto;
-    margin: 10px;
+    margin: 20px auto;
+    display: block; /* Center the image */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .container {
-    background-color: #ffffff; /* White */
+    background-color: rgba(255, 255, 255, 0.8); /* White with transparency */
     border: 2px solid #b0c4de; /* Light steel blue */
     padding: 20px;
     margin: 10px;
