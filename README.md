@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>Welcome to Discover Tej</h1>
-    </header>
+    </header><link rel="stylesheet" href="style.css">
     <nav>
         <button class="toggle-section" data-section="about">About</button>
         <button class="toggle-section" data-section="projects">Projects</button>
