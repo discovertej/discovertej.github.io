@@ -1,15 +1,13 @@
 
-# teja
-__A quick flow through__
 
-[LinkedIn](https://www.linkedin.com/in/linkwithteja)
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>teja || [LinkedIn](https://www.linkedin.com/in/linkwithteja)
+</title>
     <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Arial:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -23,22 +21,19 @@ __A quick flow through__
             padding: 10px;
         }
         h1 {
-            background-color: #4CAF50;
+            background-color: #000080;
         }
         h2 {
-            background-color: #2196F3;
+            background-color: #6495ED;
         }
         h3 {
-            background-color: #f44336;
+            background-color: #A7C7E7;
         }
         h4 {
-            background-color: #ff9800;
+            background-color: #CCCCFF;
         }
         h5 {
-            background-color: #9c27b0;
-        }
-        h6 {
-            background-color: #3f51b5;
+            background-color: #7393B3;
         }
         .content {
             padding: 20px;
@@ -47,23 +42,23 @@ __A quick flow through__
 </head>
 <body>
     <div class="content">
-        <h1>Welcome to My Personal Website</h1>
-        <p>This is a paragraph in Arial font. You can add more content here about yourself, your projects, and more.</p>
+        <h1>Career</h1>
+        <p>A young passionate graduate seeking to contribute to the Agriculture Sector, enriching the lives of the agriculture community .</p>
 
-        <h2>About Me</h2>
-        <p>Here is some information about me, written in Arial font. I'm passionate about web development and enjoy learning new technologies.</p>
+        <h2>Interest</h2>
+        <p>Persuading unreal dreams in an attempt to uncover deep psychological events.</p>
 
-        <h3>Projects</h3>
-        <p>Details of my projects will be listed here. I've worked on various web development projects, including front-end and back-end development.</p>
+        <h3>Hands on Projects</h3>
+        <p>A deep dive into Farming-as-a-Service model in Telangana, highly focusing on the feasibility of implementation, to cater for the needs of the small and medium scale farmers of the state.</p>
 
-        <h4>Skills</h4>
-        <p>I have expertise in HTML, CSS, JavaScript, and various frameworks like React and Angular. I'm also proficient in backend technologies like Node.js and Express.</p>
+        <h4>Skills nurtured</h4>
+        <p>Project Management</p>
+        <p> Persuasive Communication</p>
 
         <h5>Contact</h5>
         <p>If you would like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
 
-        <h6>Follow Me</h6>
-        <p>You can follow me on social media for updates on my latest projects and blog posts.</p>
+ 
     </div>
 </body>
 </html>
