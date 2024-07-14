@@ -35,6 +35,6 @@
             <a href="https://github.com/yourhandle">GitHub</a>
         </p>
     </footer>
-    <link rel="Script.js" href="Script.js">
+    <script src="script.js"></script>
 </body>
 </html>
