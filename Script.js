@@ -1,3 +1,5 @@
+console.log('JavaScript file is linked correctly.');
+
 document.addEventListener('DOMContentLoaded', () => {
     const buttons = document.querySelectorAll('.toggle-section');
     buttons.forEach(button => {
