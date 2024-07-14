@@ -34,7 +34,7 @@
             <a href="https://linkedin.com/in/yourhandle">LinkedIn</a> |
             <a href="https://github.com/yourhandle">GitHub</a>
         </p>
+        <script src="Script.js"></script>
     </footer>
-    <script src="Script.js"></script>
 </body>
 </html>
