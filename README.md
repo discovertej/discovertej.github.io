@@ -10,8 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Logo" class="header-logo">
-        <h1>Discover Tej</h1>
+        <img src="20240714_220937.jpg" alt="Logo" class="header-logo">
     </header>
     <nav>
         <ul>
