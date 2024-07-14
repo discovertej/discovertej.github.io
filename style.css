@@ -1,5 +1,5 @@
 body {
-    background-image: url('7e1727cf93f3a25ecd792aae8f4ce8a5.jpg'); /* Ensure your image path is correct */
+    background-image: url('images/background-image.jpg'); /* Ensure your image path is correct */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,32 +19,28 @@ header {
 }
 
 nav {
-    position: fixed;
-    left: 10px;
-    top: 50px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
 }
 
 nav button {
     background-color: #8b4513; /* Saddle brown */
     color: white;
-    margin: 10px 0;
-    padding: 10px;
+    padding: 10px 20px;
     font-family: 'Arial', sans-serif;
     cursor: pointer;
-    transition: transform 0.3s, font-size 0.3s;
+    transition: transform 0.3s, font-size 0.3s, background-color 0.3s;
     font-size: 18px;
     border: 2px solid transparent;
+    border-radius: 10px;
     position: relative;
+    animation: buttonAnimation 1s infinite alternate;
 }
 
-nav button:nth-child(2) {
-    font-size: 16px;
-}
-
-nav button:nth-child(3) {
-    font-size: 14px;
+nav button:hover {
+    background-color: #a0522d; /* Lighter brown */
 }
 
 nav button::before, nav button::after {
@@ -60,10 +56,16 @@ nav button::before, nav button::after {
     bottom: -2px;
     pointer-events: none;
     transition: transform 0.3s;
+    border-radius: 10px;
 }
 
 nav button:hover::before, nav button:hover::after {
     transform: scale(1.1);
+}
+
+@keyframes buttonAnimation {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
 }
 
 .content-section {
@@ -72,6 +74,12 @@ nav button:hover::before, nav button:hover::after {
     padding: 20px;
     margin: 20px 0;
     display: none; /* Hide sections by default */
+    animation: popUp 0.5s ease-out forwards;
+}
+
+@keyframes popUp {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
 }
 
 footer {
