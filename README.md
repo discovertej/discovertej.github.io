@@ -1,60 +1,24 @@
-body {
-    background-color: #c0c0c0;
-    color: #000000;
-    font-family: 'Monaco', 'Courier New', monospace;
-    text-align: center;
-    padding: 20px;
-}
-
-header {
-    background-color: #a0a0a0;
-    border-bottom: 2px solid #808080;
-    padding: 10px;
-}
-
-nav {
-    background-color: #b0b0b0;
-    border: 1px solid #808080;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-footer {
-    background-color: #a0a0a0;
-    border-top: 2px solid #808080;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-h1, h2, h3 {
-    font-family: 'Chicago', 'Geneva', sans-serif;
-}
-
-button {
-    background-color: #d0d0d0;
-    border: 2px solid #808080;
-    padding: 5px 10px;
-    font-family: 'Monaco', 'Courier New', monospace;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #e0e0e0;
-}
-
-img {
-    width: 100px;
-    height: auto;
-    margin: 10px;
-}
-
-.container {
-    background-color: #d0d0d0;
-    border: 2px solid #808080;
-    padding: 20px;
-    margin: 10px;
-    display: inline-block;
-    text-align: left;
-}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Tej</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Discover Tej</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Projects</a> | <a href="#">Contact</a>
+    </nav>
+    <main class="container">
+        <h2>Welcome to My Retro Macintosh Themed Site</h2>
+        <p>This is a sample paragraph. Add your content here.</p>
+        <img src="path-to-your-image/Macintosh-Icon.png" alt="Macintosh Icon">
+    </main>
+    <footer>
+        <p>&copy; 2024 Discover Tej</p>
+    </footer>
+</body>
+</html>
