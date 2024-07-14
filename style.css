@@ -11,7 +11,13 @@ header {
     text-align: right;
     padding: 20px;
     font-size: 2em;
-    margin-right: 0px;
+    margin-right: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: #000000; /* Match the background */
+    z-index: 1000;
 }
 
 nav {
@@ -48,7 +54,7 @@ nav button:hover {
 }
 
 .content-section {
-    display: Interest;
+    display: none;
     padding: 20px;
     margin: 20px;
     background: rgba(255, 255, 255, 0.1);
