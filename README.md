@@ -9,9 +9,6 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <img src="20240714_220937.jpg" alt="Logo" class="header-logo">
-    </header>
     <nav>
         <ul>
             <li><button class="toggle-section" data-section="interests">Interests</button></li>
