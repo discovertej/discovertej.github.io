@@ -16,8 +16,7 @@
     <main class="container">
         <h2>Welcome to My Retro Macintosh Themed Site</h2>
         <p>This is a sample paragraph. Add your content here.</p>
-        <img src="root/937751.png" alt="Macintosh Icon">
-        <img src="root/retro-pixelated-pattern-in-blue-green-and-orange-photo-photos-big.webp" alt= "Background pattern">
+        <img src="discovertej/937751.png" alt="Macintosh Icon">
     </main>
     <footer>
         <p>&copy; 2024 Discover Tej</p>
