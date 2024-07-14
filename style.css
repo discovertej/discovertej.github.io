@@ -88,3 +88,6 @@ footer {
 .visible {
     display: block;
 }
+html {
+    scroll-behavior: smooth;
+}
