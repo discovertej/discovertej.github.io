@@ -1,60 +1,61 @@
 body {
-    background-image: url('7e1727cf93f3a25ecd792aae8f4ce8a5.jpg'); /* Ensure your image path is correct */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    color: #333; /* Dark grey */
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-    padding: 20px;
-    margin: 0; /* Remove default margin */
-    padding-bottom: 60px; /* Prevent content from being hidden behind the footer */
+    background-color: #000000; /* Pitch black background */
+    color: #FFFFFF; /* White text */
+    font-family: 'Press Start 2P', cursive; /* Pixelated font */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 header {
-    background-color: rgba(173, 216, 230, 0.8); /* Light blue with transparency */
-    border-bottom: 2px solid #87ceeb; /* Sky blue */
-    padding: 10px;
+    text-align: right;
+    padding: 20px;
+    font-size: 2em;
+    margin-right: 20px;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: 20px 0;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 10px 0;
 }
 
 nav button {
-    background-color: #8b4513; /* Saddle brown */
-    color: white;
-    padding: 10px 20px;
-    font-family: 'Arial', sans-serif;
-    cursor: pointer;
-    transition: transform 0.3s, font-size 0.3s, background-color 0.3s;
-    font-size: 18px;
+    background: none;
     border: none;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: transform 0.3s, color 0.3s;
     border-radius: 10px;
-    position: relative;
-    animation: buttonAnimation 1s infinite alternate;
+    text-align: left;
 }
 
 nav button:hover {
-    background-color: #a0522d; /* Lighter brown */
-}
-
-@keyframes buttonAnimation {
-    0% { transform: scale(1); }
-    100% { transform: scale(1.1); }
+    color: #87ceeb; /* Light blue */
+    transform: scale(1.1);
 }
 
 .content-section {
-    background-color: rgba(255, 255, 255, 0.8); /* White with transparency */
-    border: 2px solid #b0c4de; /* Light steel blue */
+    display: none;
     padding: 20px;
-    margin: 20px 0;
-    display: none; /* Hide sections by default */
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
     animation: popUp 0.5s ease-out forwards;
+    max-width: 600px;
+    margin-left: 200px; /* Adjust this value for better alignment */
 }
 
 @keyframes popUp {
@@ -64,8 +65,33 @@ nav button:hover {
 
 footer {
     background-color: #000000; /* Pitch black */
-    color: #87ceeb; /* Light blue */
-    border-top: 2px solid #87ceeb; /* Sky blue */
+    color: #FFFFFF;
     padding: 10px;
-    position
-    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth; /* Smooth scroll effect */
+}
