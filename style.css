@@ -1,5 +1,5 @@
 body {
-    background-image: url('7e1727cf93f3a25ecd792aae8f4ce8a5.jpg'); /* Ensure your image path is correct */
+    background-image: url('images/background-image.jpg'); /* Ensure your image path is correct */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -8,6 +8,8 @@ body {
     font-family: 'Arial', sans-serif;
     text-align: center;
     padding: 20px;
+    margin: 0; /* Remove default margin */
+    padding-bottom: 60px; /* Prevent content from being hidden behind the footer */
 }
 
 header {
@@ -73,12 +75,23 @@ nav button:hover::before, nav button:hover::after {
 }
 
 footer {
-    background-color: rgba(173, 216, 230, 0.8); /* Light blue with transparency */
+    background-color: #000000; /* Pitch black */
+    color: #87ceeb; /* Light blue */
     border-top: 2px solid #87ceeb; /* Sky blue */
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-align: center;
+}
+
+footer a {
+    color: #87ceeb; /* Light blue */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 .hidden {
@@ -87,7 +100,4 @@ footer {
 
 .visible {
     display: block;
-}
-html {
-    scroll-behavior: smooth;
 }
