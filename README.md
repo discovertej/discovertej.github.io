@@ -36,27 +36,27 @@
         <p>This is the skills nurtured section.</p>
     </section>
     <section id="experience" class="content-section hidden">
-        <h2>Experience</h2>
+        <h3>Experience</h3>
         <p>This is the experience section.</p>
     </section>
     <section id="glimpses" class="content-section hidden">
-        <h2>Glimpses</h2>
+        <h3>Glimpses</h3>
         <p>This is the glimpses section.</p>
     </section>
     <section id="education" class="content-section hidden">
-        <h2>Education</h2>
+        <h3>Education</h3>
         <p>This is the education section.</p>
     </section>
     <section id="perspective" class="content-section hidden">
-        <h2>Personal-spective</h2>
+        <h4>Personal-spective</h4>
         <p>This is the personal-spective section.</p>
     </section>
     <section id="achievements" class="content-section hidden">
-        <h2>Achievements</h2>
+        <h4>Achievements</h4>
         <p>This is the achievements section.</p>
     </section>
     <section id="aspirations" class="content-section hidden">
-        <h2>Aspirations</h2>
+        <h4>Aspirations</h4>
         <p>This is the aspirations section.</p>
     </section>
     <footer>
@@ -64,6 +64,8 @@
         <a href="https://github.com/yourhandle"><img src="images/github.png" alt="GitHub"></a>
         <a href="https://linkedin.com/in/yourhandle"><img src="images/linkedin.png" alt="LinkedIn"></a>
     </footer>
+    </body>
+    <body>
     <script src="script.js"></script>
 </body>
 </html>
