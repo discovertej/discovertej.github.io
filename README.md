@@ -6,6 +6,7 @@
     <title>Discover Tej</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<img src="retropattern.jpg" alt="Background pattern">
 <body>
     <header>
         <h1>Discover Tej</h1>
