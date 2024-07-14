@@ -1,13 +1,16 @@
+<!DOCTYPE html>
 <html lang="en">
-<head><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover Tej</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
+        <img src="images/logo.png" alt="Logo" class="header-logo">
         <h1>Discover Tej</h1>
     </header>
     <nav>
@@ -36,27 +39,27 @@
         <p>This is the skills nurtured section.</p>
     </section>
     <section id="experience" class="content-section hidden">
-        <h3>Experience</h3>
+        <h2>Experience</h2>
         <p>This is the experience section.</p>
     </section>
     <section id="glimpses" class="content-section hidden">
-        <h3>Glimpses</h3>
+        <h2>Glimpses</h2>
         <p>This is the glimpses section.</p>
     </section>
     <section id="education" class="content-section hidden">
-        <h3>Education</h3>
+        <h2>Education</h2>
         <p>This is the education section.</p>
     </section>
     <section id="perspective" class="content-section hidden">
-        <h4>Personal-spective</h4>
+        <h2>Personal-spective</h2>
         <p>This is the personal-spective section.</p>
     </section>
     <section id="achievements" class="content-section hidden">
-        <h4>Achievements</h4>
+        <h2>Achievements</h2>
         <p>This is the achievements section.</p>
     </section>
     <section id="aspirations" class="content-section hidden">
-        <h4>Aspirations</h4>
+        <h2>Aspirations</h2>
         <p>This is the aspirations section.</p>
     </section>
     <footer>
@@ -64,8 +67,5 @@
         <a href="https://github.com/yourhandle"><img src="images/github.png" alt="GitHub"></a>
         <a href="https://linkedin.com/in/yourhandle"><img src="images/linkedin.png" alt="LinkedIn"></a>
     </footer>
-    </body>
-    <body>
-    <script src="script.js"></script>
 </body>
 </html>
