@@ -1,3 +1,3 @@
 # teja
-** A quick flow through**
+**A quick flow through**
 [LinkedIn](https://www.linkedin.com/in/linkwithteja)
