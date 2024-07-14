@@ -1,3 +1,6 @@
+/* Import the retro pixelated font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
     background-color: #000000; /* Pitch black background */
     color: #FFFFFF; /* White text */
@@ -8,10 +11,11 @@ body {
 }
 
 header {
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     font-size: 2em;
-    margin-right: 20px;
     position: fixed;
     top: 0;
     right: 0;
@@ -20,11 +24,21 @@ header {
     z-index: 1000;
 }
 
+.header-logo {
+    height: 50px; /* Adjust height as needed */
+    width: auto;
+}
+
+header h1 {
+    margin-right: 20px;
+}
+
 nav {
     position: fixed;
-    top: 100px;
+    top: 80px; /* Adjust this value based on header height */
     left: 20px;
     text-align: left;
+    z-index: 999;
 }
 
 nav ul {
@@ -40,11 +54,11 @@ nav button {
     background: none;
     border: none;
     color: #FFFFFF;
-    font-size: 1.2em;
+    font-size: 1.5em; /* Increase the size of section titles */
     cursor: pointer;
     padding: 5px 10px;
-    transition: transform 0.7s, color 0.7s;
-    border-radius: 30px;
+    transition: transform 0.3s, color 0.3s;
+    border-radius: 10px;
     text-align: left;
 }
 
@@ -64,9 +78,13 @@ nav button:hover {
     margin-left: 200px; /* Adjust this value for better alignment */
 }
 
+.content-section h2 {
+    font-size: 2em; /* Increase the size of section titles */
+}
+
 @keyframes popUp {
     0% { transform: scale(0.5); opacity: 0; }
-    100% { transform: scale(3); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
 }
 
 footer {
@@ -80,10 +98,10 @@ footer {
 }
 
 footer img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin: 0 10px;
-    transition: transform 0.7s;
+    transition: transform 0.3s;
 }
 
 footer img:hover {
