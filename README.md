@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>Welcome to Discover Tej</h1>
-    </header><link rel="stylesheet" href="style.css">
+    </header>
     <nav>
         <button class="toggle-section" data-section="about">About</button>
         <button class="toggle-section" data-section="projects">Projects</button>
@@ -34,7 +34,7 @@
             <a href="https://linkedin.com/in/yourhandle">LinkedIn</a> |
             <a href="https://github.com/yourhandle">GitHub</a>
         </p>
-        <script src="Script.js"></script>
     </footer>
+    <link rel="Script.js" href="Script.js">
 </body>
 </html>
