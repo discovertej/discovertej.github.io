@@ -1,6 +1,5 @@
-
 <html lang="en">
-<head><link rel="stylesheet" href="style.css">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover Tej</title>
@@ -8,32 +7,61 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Discover Tej</h1>
+        <h1>Discover Tej</h1>
     </header>
     <nav>
-        <button class="toggle-section" data-section="about">About</button>
-        <button class="toggle-section" data-section="projects">Projects</button>
-        <button class="toggle-section" data-section="contact">Contact</button>
+        <ul>
+            <li><button class="toggle-section" data-section="interests">Interests</button></li>
+            <li><button class="toggle-section" data-section="projects">Projects</button></li>
+            <li><button class="toggle-section" data-section="skills">Skills Nurtured</button></li>
+            <li><button class="toggle-section" data-section="experience">Experience</button></li>
+            <li><button class="toggle-section" data-section="glimpses">Glimpses</button></li>
+            <li><button class="toggle-section" data-section="education">Education</button></li>
+            <li><button class="toggle-section" data-section="perspective">Personal-spective</button></li>
+            <li><button class="toggle-section" data-section="achievements">Achievements</button></li>
+            <li><button class="toggle-section" data-section="aspirations">Aspirations</button></li>
+        </ul>
     </nav>
-    <section id="about" class="content-section hidden">
-        <h2>About</h2>
-        <p>This is the about section.</p>
+    <section id="interests" class="content-section hidden">
+        <h2>Interests</h2>
+        <p>This is the interests section.</p>
     </section>
     <section id="projects" class="content-section hidden">
         <h2>Projects</h2>
         <p>This is the projects section.</p>
     </section>
-    <section id="contact" class="content-section hidden">
-        <h2>Contact</h2>
-        <p>This is the contact section.</p>
+    <section id="skills" class="content-section hidden">
+        <h2>Skills Nurtured</h2>
+        <p>This is the skills nurtured section.</p>
+    </section>
+    <section id="experience" class="content-section hidden">
+        <h2>Experience</h2>
+        <p>This is the experience section.</p>
+    </section>
+    <section id="glimpses" class="content-section hidden">
+        <h2>Glimpses</h2>
+        <p>This is the glimpses section.</p>
+    </section>
+    <section id="education" class="content-section hidden">
+        <h2>Education</h2>
+        <p>This is the education section.</p>
+    </section>
+    <section id="perspective" class="content-section hidden">
+        <h2>Personal-spective</h2>
+        <p>This is the personal-spective section.</p>
+    </section>
+    <section id="achievements" class="content-section hidden">
+        <h2>Achievements</h2>
+        <p>This is the achievements section.</p>
+    </section>
+    <section id="aspirations" class="content-section hidden">
+        <h2>Aspirations</h2>
+        <p>This is the aspirations section.</p>
     </section>
     <footer>
-        <p>&copy; 2024 Discover Tej</p>
-        <p>
-            <a href="https://twitter.com/yourhandle">Twitter</a> |
-            <a href="https://linkedin.com/in/yourhandle">LinkedIn</a> |
-            <a href="https://github.com/yourhandle">GitHub</a>
-        </p>
+        <a href="https://instagram.com/yourhandle"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="https://github.com/yourhandle"><img src="images/github.png" alt="GitHub"></a>
+        <a href="https://linkedin.com/in/yourhandle"><img src="images/linkedin.png" alt="LinkedIn"></a>
     </footer>
     <script src="script.js"></script>
 </body>
