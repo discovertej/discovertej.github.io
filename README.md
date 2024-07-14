@@ -22,3 +22,11 @@
     </footer>
 </body>
 </html>
+discovertej.github.io/
+│
+├── index.html
+├── style.css
+└── images/
+    ├── background-pattern.png
+    └── pleasant-image.jpg
+    
