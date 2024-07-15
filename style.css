@@ -61,7 +61,7 @@ nav button {
     cursor: pointer;
     padding: 5px 10px;
     transition: transform 0.3s, color 0.3s;
-    border-radius: 10px;
+    border-radius: 50px;
     text-align: left;
 }
 
@@ -75,7 +75,7 @@ nav button:hover {
     padding: 20px;
     margin: 20px;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
+    border-radius: 50px;
     animation: popUp 0.5s ease-out forwards;
     max-width: 600px;
     margin-left: 200px; /* Adjust this value for better alignment */
