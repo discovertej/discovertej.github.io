@@ -1,1 +1,54 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    overflow: hidden; /* Ensure the dot stays within the viewport */
+}
+
+.jumping-dot-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jumping-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    position: relative;
+    animation: jump 2s infinite;
+}
+
+@keyframes jump {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-150px);
+    }
+    60% {
+        transform: translateY(-75px);
+    }
+}
+
+.rounded-button {
+    background-color: #4CAF50; /* Green background */
+    color: white;             /* White text */
+    padding: 15px 32px;       /* Padding */
+    text-align: center;       /* Centered text */
+    text-decoration: none;    /* Remove underline */
+    display: inline-block;    /* Make the button inline-block */
+    font-size: 16px;          /* Increase font size */
+    margin: 4px 2px;          /* Some margin */
+    cursor: pointer;          /* Pointer/hand icon on hover */
+    border-radius: 12px;      /* Rounded corners */
+    border: none;             /* Remove border */
+}
 
