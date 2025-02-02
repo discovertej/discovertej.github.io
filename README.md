@@ -1,1 +1,1 @@
-# discovertej.github.io
+Teja Komirpalepu
