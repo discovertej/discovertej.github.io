@@ -1,4 +1,3 @@
-
 # who's this __GUY__?
  22 year old __AgriTech__ aficionado.<br/>
 Based in Hyderabad.<br/>
