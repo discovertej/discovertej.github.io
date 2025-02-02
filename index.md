@@ -30,7 +30,7 @@ Post Matriculation<br/> ``Sree Vignan Jr. College``
 
 # Experiments
 
-## Evaluation of effectiveness of Zinc micronutrient on yield of Pisum sativum 
+## Evaluation of effectiveness of Zinc micronutrient on yield of _Pisum sativum_ 
 <br/>```
 Zinc is applied in thw forms of Zinc Gluconate and Zinc EDTA at varying concentrations to asses the Yield variations.```<br/>
 Season- ``Rabi``
