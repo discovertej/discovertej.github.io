@@ -1,10 +1,10 @@
-# who's this __GUY__?
+# who's this __Guy__?
  22 year old __AgriTech__ aficionado.<br/>
 Based in Hyderabad.<br/>
-Exploring ways to integrate __Machine Learning & Agricu>
+Exploring ways to integrate __Machine Learning & Agriculture
 <br/>Networking with Technology Professional.
 ## Still willing to __know more?__
-__Head to__ - [_Teja_komiripalepu_](https://www.linkedi>
+__Head to__ - [_Teja_komiripalepu_](https://www.linkedin.in/discovertej)
 <br/>
 
 ## Key areas of interest
@@ -22,15 +22,16 @@ Post Matriculation<br/> ``Sree Vignan Jr. College``
 
 # Experience
 
-1. Sales Intern at Thanos Technologies <br/>```
-   A prominent Agri-Drone manufacturer. As an Intern I >
-2. Summer Interen at AgHub, PJTSAU <br/>`` An AgriTech >
+1. Sales Intern at Thanos Technologies <br/>
+   A prominent Agri-Drone manufacturer.<br/> Pitched SYENA H10i drone to over 3500 prospects and managed to get significant business to the firm.
+2. Summer Intern at AgHub, PJTSAU <br/>
+An AgriTech Startup incubator. Worked on Farming As A service business model in central Telangana.
   .
 # Experiments
 
-## Evaluation of effectiveness of Zinc micronutrient on>
+## Evaluation of effectiveness of Zinc micronutrient on Green Pea crop
 <br/>```
-Zinc is applied in thw forms of Zinc Gluconate and Zinc>
+Zinc is applied in the forms of Zinc Gluconate and Zinc EDTA and observed the response of the crop
 Season- ``Rabi``
 # Certifications
 1. `Ruby On Rails` by LinkedIn<br/>
