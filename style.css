@@ -147,3 +147,34 @@ footer #visitorCount {
     font-weight: bold;
     color: #555555; /* Slightly darker grey for emphasis */
 }
+/* ... (your existing CSS from previous steps) ... */
+
+/* Add this to the end of your style.css file */
+
+.running-text-container {
+    width: 100%; /* Or a fixed width like 800px to match image */
+    max-width: 800px; /* Constrain width if you want */
+    overflow: hidden; /* Hide anything outside this container */
+    background-color: #1A1A1A; /* Dark background for visibility */
+    padding: 10px 0; /* Vertical padding */
+    margin-top: 20px; /* Space above it */
+    border: 1px solid #333333; /* Border for definition */
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3); /* Subtle neon glow to match theme */
+}
+
+.running-text {
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: marquee 15s linear infinite; /* Apply the animation */
+    margin: 0; /* Remove default paragraph margin */
+    padding: 0 100%; /* Start text off-screen to the right */
+    display: inline-block; /* Ensure it scrolls correctly */
+    color: #00FFFF; /* Neon Cyan text */
+    font-size: 1.1em;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0%); } /* Start at its original position (off-screen right) */
+    100% { transform: translateX(-100%); } /* Move fully to the left (off-screen left) */
+}
+
+/* You might need to adjust widths/margins/positions depending on your exact layout goals */
