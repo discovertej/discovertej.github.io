@@ -21,18 +21,14 @@ document.addEventListener('DOMContentLoaded', () => {
         animalImage.alt = "Loading...";
 
         try {
-            // Using thepetapi.com which often provides animal and baby
-            const response = await fetch('https://api.thepetapi.com/random-animal');
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            const data = await response.json();
-            // Assuming the API returns a direct image URL or a field containing it
-            // You might need to inspect the API response structure if this URL isn't directly 'data.image'
-            // For thepetapi, it often returns a redirect, so we'll directly set the URL.
-            // If the API gives a JSON with a URL field, you'd use data.imageUrl or similar.
-            animalImage.src = data.image_url; // This should be the direct image URL from the API response
-            animalImage.alt = "A random animal with its baby";
+            // Using Unsplash for random animal images.
+            // This URL fetches a random image with "animal" tag, sized 800x600.
+            // It will be a general animal, not necessarily with a baby.
+            // Adding a timestamp to the URL helps ensure a new image by busting browser cache.
+            const imageUrl = `https://source.unsplash.com/random/800x600/?animal&${new Date().getTime()}`;
+            
+            animalImage.src = imageUrl; 
+            animalImage.alt = "A random animal";
         } catch (error) {
             console.error("Error fetching random animal:", error);
             animalImage.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23f00'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, sans-serif' font-size='40' fill='%23fff'%3EError Loading Image%3C/text%3E%3C/svg%3E";
