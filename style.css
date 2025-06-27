@@ -73,63 +73,76 @@ body {
 }
 
 .refresh-button {
-    background-color: #687FE5; /* A soft, solid grey for the button base */
-    color: #FFFFFF; /* Dark grey text on the button */
-    border: none;
-    padding: 20px 30px;
-    border-radius: 50px; /* Round shape */
-    font-size: 1.2em;
-    cursor: pointer;
-    /* Subtle 3D effect with shadows and a very faint "red" border for the color hint */
-    box-shadow: 
-        0 3px 8px rgba(0, 0, 0.18, 0.15), /* Soft outer shadow */
-        inset 0 1px 0 rgba(255, 255, 255, 0.5),
-        0 0 0 2px rgba(255, 99, 71, 0.1); /* Very subtle, light tomato red ring for "red color" hint */
-    transition: all 0.2s ease-in-out;
-    text-shadow: none; /* Remove text shadow */
-    border: 1px solid #C0C0C0; /* A slightly darker grey border */
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #282828, #202020);
+  box-shadow:
+    inset -8px 0 8px rgba(0, 0, 0, 0.15),
+    inset 0 -8px 8px rgba(0, 0, 0, 0.25),
+    0 0 0 2px rgba(0, 0, 0, 0.75),
+    10px 20px 25px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  transition:
+    transform 0.1s ease-in-out,
+    box-shadow 0.1s ease-in;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 
-    position: relative; /* Needed for pseudo-element positioning */
-    overflow: hidden; /* Ensures glow doesn't extend beyond button bounds */
-    z-index: 1; /* Ensures button content is above glow */
-}
-
-.refresh-button::before {
-    content: '';
+  .letter {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, rgba(255, 99, 71, 0.5) 0%, rgba(255, 99, 71, 0) 70%); /* Subtle red glow */
-    border-radius: 50%;
-    transform: translate(-50%, -50%) scale(0); /* Start hidden and small */
-    opacity: 0;
-    transition: transform 0.4s ease-out, opacity 0.4s ease-out; /* Smooth transition */
-    z-index: -1; /* Place behind button text */
-}
+    left: 12px;
+    top: 12px;
+    color: #e9e9e9;
+    font-size: 16px;
+    transition: transform 0.1s ease-in-out;
+  }
 
-.refresh-button:hover {
-    background-color: #CD5656; /* Slightly darker grey on hover */
-    box-shadow: 
-        0 5px 12px rgba(0, 0, 0, 0.2), 
-        inset 0 1px 0 rgba(255, 255, 255, 0.6),
-        0 0 0 2px rgba(255, 99, 71, 0.2); /* Slightly stronger red ring on hover */
-    transform: translateY(-1px); /* Slight lift effect */
-}
+  
+.refresh-button::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    bottom: 14px;
+    right: 12px;
+    background: linear-gradient(90deg, #232323, #4a4a4a);
+    border-radius: 10px;
+    box-shadow:
+      -10px -10px 10px rgba(255, 255, 255, 0.25),
+      10px 5px 10px rgba(0, 0, 0, 0.15);
+    border-left: 1px solid #0004;
+    border-bottom: 1px solid #0004;
+    border-top: 1px solid #0009;
+    transition: all 0.1s ease-in-out;
+  }
 
-.refresh-button:hover::before {
-    transform: translate(-50%, -50%) scale(1.8); /* Expand and show glow */
-    opacity: 1;
-}
-
+  
 .refresh-button:active {
-    background-color: #9BC09C; /* Even darker grey when pressed */
-    box-shadow: 
-        0 1px 3px rgba(0, 0, 0, 0.2), 
-        inset 0 0 5px rgba(0, 0, 0, 0.2), /* Pressed in effect */
-        0 0 0 2px rgba(255, 99, 71, 0.1); /* Red ring remains subtle */
-    transform: translateY(0);
+    transform: translateY(2px);
+    box-shadow:
+      inset -4px 0 4px rgba(0, 0, 0, 0.1),
+      inset 0 -4px 4px rgba(0, 0, 0, 0.15),
+      0 0 0 2px rgba(0, 0, 0, 0.5),
+      5px 10px 15px rgba(0, 0, 0, 0.3);
+
+    
+.refresh-button::before {
+      top: 5px;
+      left: 5px;
+      bottom: 11px;
+      right: 11px;
+      box-shadow:
+        -5px -5px 5px rgba(255, 255, 255, 0.15),
+        5px 3px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .letter {
+      transform: translateY(1px);
+    }
+  }
 }
 
 footer {
