@@ -14,7 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
         "https://images.pexels.com/photos/10884443/pexels-photo-10884443.jpeg",
         "https://images.pexels.com/photos/2134246/pexels-photo-2134246.jpeg",
         "https://images.pexels.com/photos/1289845/pexels-photo-1289845.jpeg",
-        "https://images.pexels.com/photos/2677843/pexels-photo-2677843.jpeg"
+        "https://images.pexels.com/photos/2677843/pexels-photo-2677843.jpeg",
+        "https://images.pexels.com/photos/65566/pexels-photo-65566.jpeg",
+        "https://images.pexels.com/photos/7001091/pexels-photo-7001091.jpeg",
+        "https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg",
+        "https://images.pexels.com/photos/3691288/pexels-photo-3691288.jpeg",
+        "https://images.pexels.com/photos/32287290/pexels-photo-32287290.jpeg",
+        "https://images.pexels.com/photos/12284846/pexels-photo-12284846.jpeg"
     ];
 
     // --- Visitor Counter Logic ---
