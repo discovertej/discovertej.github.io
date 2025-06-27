@@ -2,7 +2,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const animalImage = document.getElementById('animalImage');
     const refreshButton = document.getElementById('refreshButton');
     const visitorCountElement = document.getElementById('visitorCount');
+    const headTabMessages = [
+        "Aha! Scan chesava.. 🐾 ",
+        "You're quiet curious, aren't you?✨",
+        "ANND!! Your fav animal is here ❤️",
+        "Edhoroju manam kuda thechukundham 🐶🐱",
+        "Your LUV for 🐘",
+        "Your mood booster is here 🌈",
+        "Chudu nilane gudleskoni chusthundhi🫢",
+        " Chadhivindhi chalu elephant chusi nidrapo💤",
+        " Elephants don't play with skinny ppl, thinu sarriga🍅",
+        "Elephant inka nuvvu Matching matching 👀",
+        " Dhanni chusi nerchuko ela thinadam🌵",
+        " Urikeee elephants kaadhu 40LPA kottu💸",
+        " Emaindhe?? Elephant kavala?😶‍🌫️",
+        " ☀️ Sun is plotting against you, drink more H-O-H"
+    ];
 
+    function setRandomHeadTabTitle() {
+        const randomIndex = Math.floor(Math.random() * headTabMessages.length);
+        document.title = headTabMessages[randomIndex];
+    }
     // --- Curated List of Baby Animal Image URLs from Pexels ---
     // These are direct links to images of animals with their babies.
     // They are typically optimized by Pexels for a given size (e.g., w=800&h=600).
