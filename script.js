@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         " Urikeee elephants kaadhu 40LPA kottu💸",
 
         " Emaindhe?? Elephant kavala?😶‍🌫️",
+        "Nuvvu anni chusesa anukunnava?? nannu chudaledhu inka..",
 
         " ☀️ Sun is plotting against you, drink more H-O-H"
 
@@ -241,6 +242,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial load of an animal image
 
     displayRandomAnimal();
-
+    setRandomHeadTabTitle();
 });
 
