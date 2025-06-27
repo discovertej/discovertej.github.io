@@ -243,5 +243,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     displayRandomAnimal();
     setRandomHeadTabTitle();
+
+/* OPTIONAL — show the same caption inside the yellow bubble  */
+const bubble = document.getElementById('headTabMessages');
+if (bubble) bubble.textContent = document.title;
+    
 });
 
