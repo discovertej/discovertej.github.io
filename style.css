@@ -1,157 +1,128 @@
-body {
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #000000; /* Deep black background */
-    color: #EEEEEE; /* Light grey for text on dark background */
-    padding: 20px;
-    box-sizing: border-box;
+body {   
+    font-family: "Lucida Console", "Courier New", monospace; 
+    display: flex;    flex-direction: column;  
+    align-items: center;   
+    justify-content: space-between; 
+    min-height: 100vh;    margin: 0;
+    background-color: #FFF4A4; /* Very light grey, subtle background */ 
+    color: #16610E; /* Dark grey for primary text */  
+    padding: 20px;   
+    box-sizing: border-box;}.header-bubble {  
+    background-color: #FED16A; /* White for a very clean, subtle look */  
+    padding: 20px 40px;   
+    border-radius: 50px;
+    /* Subtle shadow for a hint of 3D, without strong colors */
+    box-shadow:    
+        0 4px 8px rgba(0, 0, 0, 0.08), /* Soft outer shadow */  
+        inset 0 0 5px rgba(255, 255, 255, 0.7); /* Subtle inner highlight */   
+    margin-bottom: 40px;  
+    text-align: center; 
+    color: #16610E; /* Dark grey text */ 
+    text-shadow: none; /* Remove text shadow for cleaner look */  
+    border: 1px solid #E0E0E0; /* Very light grey border for definition */
 }
-
-.header-bubble {
-    background-color: #1A1A1A; /* Darker grey for the bubble */
-    padding: 20px 40px;
-    border-radius: 0; /* Removed round corners */
-    box-shadow: 
-        0 4px 15px rgba(0, 0, 0, 0.4), /* Stronger shadow to lift */
-        inset 0 0 10px rgba(255, 255, 255, 0.1); /* Subtle inner highlight */
-    margin-bottom: 40px;
-    text-align: center;
-    color: #00FFFF; /* Neon Cyan text */
-    border: 1px solid #333333; /* Darker border */
-    /* REMOVED: overflow: hidden; and white-space: nowrap; as they were for typing animation */
-}
-
-.header-bubble h1 {
-    margin: 0;
+.header-bubble h1 {  
+    margin: 0;  
     font-size: 2.5em;
-    letter-spacing: 2px;
-    /* REMOVED: border-right and animation: blink-caret were for typing animation */
-}
-
-/* REMOVED: @keyframes blink-caret was for typing animation */
-
-
-.content-area {
-    display: flex;
+    letter-spacing: 2px;}
+.content-area {   
+    display: flex;  
     flex-direction: column;
-    align-items: center;
-    gap: 30px; 
-    flex-grow: 1; 
-}
-
-/* Neon Shadow Animation */
-@keyframes neon-glow {
-    0% {
-        box-shadow: 
-            0 0 10px 5px rgba(0, 255, 255, 0.5), /* Cyan */
-            0 0 20px 10px rgba(255, 0, 255, 0.3); /* Magenta */
+    align-items: center; 
+    gap: 30px; /* Space between image and button */ 
+    flex-grow: 1; }
+.image-container {  
+    background-color: #FFFFFF; /* White background for image container */ 
+    border-radius: 15px;  
+    padding: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Subtle shadow */ 
+    border: 1px solid #E0E0E0; /* Very light grey border * /
     }
-    33% {
-        box-shadow: 
-            0 0 20px 8px rgba(255, 0, 255, 0.5), /* Magenta */
-            0 0 30px 15px rgba(0, 255, 0, 0.3); /* Green */
+    #animalImage {  
+    border-radius: 10px;  
+    display: block;   
+    max-width: 100%;  
+    height: auto; }
+    /* Keyframes for the glow animation */
+    @keyframes pulse-glow {  
+        0% {      
+            opacity: 0;      
+            transform: scale(0.8); 
+        }    50% {       
+            opacity: 0.7;   
+            transform: scale(1); 
+        }    100% {   
+            opacity: 0;    
+            transform: scale(1.2);  
+        }}
+    .refresh-button {  
+        background-color: #D3D3D3; /* A soft, solid grey for the button base */
+        color: #333333; /* Dark grey text on the button */  
+        border: none;   
+        padding: 20px 30px; 
+        border-radius: 50px; /* Round shape */ 
+        font-size: 1.2em;   
+        cursor: pointer;    /* Subtle 3D effect with shadows and a very faint "red" border for the color hint */ 
+        box-shadow:     
+            0 3px 8px rgba(0, 0, 0, 0.15), /* Soft outer shadow */   
+            inset 0 1px 0 rgba(255, 255, 255, 0.5),   
+            0 0 0 2px rgba(255, 99, 71, 0.1); /* Very subtle, light tomato red ring for "red color" hint */  
+        transition: all 0.2s ease-in-out;    text-shadow: none; /* Remove text shadow */ 
+        border: 1px solid #C0C0C0; /* A slightly darker grey border */   
+        position: relative; /* Needed for pseudo-element positioning */
+        overflow: hidden; /* Ensures glow doesn't extend beyond button bounds */
+        z-index: 1; /* Ensures button content is above glow */
     }
-    66% {
-        box-shadow: 
-            0 0 30px 12px rgba(0, 255, 0, 0.5), /* Green */
-            0 0 40px 20px rgba(0, 255, 255, 0.3); /* Cyan */
+    .refresh-button::before { 
+        content: '';  
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        width: 100%;
+        height: 100%;  
+        background: radial-gradient(circle, rgba(255, 99, 71, 0.5) 0%, rgba(255, 99, 71, 0) 70%); /* Subtle red glow */ 
+        border-radius: 50%;  
+        transform: translate(-50%, -50%) scale(0); /* Start hidden and small */  
+        opacity: 0;   
+        transition: transform 0.4s ease-out, opacity 0.4s ease-out; /* Smooth transition */  
+        z-index: -1; /* Place behind button text */}.refresh-button:hover {   
+        background-color: #C0C0C0; /* Slightly darker grey on hover */ 
+        box-shadow:       
+            0 5px 12px rgba(0, 0, 0, 0.2),     
+            inset 0 1px 0 rgba(255, 255, 255, 0.6),    
+            0 0 0 2px rgba(255, 99, 71, 0.2); /* Slightly stronger red ring on hover */    
+        transform: translateY(-1px); /* Slight lift effect */
     }
-    100% {
-        box-shadow: 
-            0 0 10px 5px rgba(0, 255, 255, 0.5), /* Cyan */
-            0 0 20px 10px rgba(255, 0, 255, 0.3); /* Magenta */
+    .refresh-button:
+    hover::before {  
+        transform: translate(-50%, -50%) scale(1.5); /* Expand and show glow */  
+        opacity: 1;}.refresh-button:active {  
+        background-color: #B0B0B0; /* Even darker grey when pressed */  
+        box-shadow:     
+            0 1px 3px rgba(0, 0, 0, 0.2),     
+            inset 0 0 5px rgba(0, 0, 0, 0.2), /* Pressed in effect */     
+            0 0 0 2px rgba(255, 99, 71, 0.1); /* Red ring remains subtle */ 
+        transform: translateY(0);
     }
-}
+    footer {    
+        margin-top: 40px;   
+        font-size: 1em;  
+        color: #0D5EA6; /* Medium grey for footer text */   
+        padding: 10px 20px;  
+        background-color: #8CCDEB; /* Very light grey for footer background */ 
+        border-radius: 10px;  
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
+        border: 1px solid #E0E0E0; /* Light border */
+    }
+    footer #visitorCount {   
+        font-weight: bold;   
+        color: #FFFFFF; /* Slightly darker grey for emphasis */
+    }
 
-.image-container {
-    background-color: #1A1A1A; /* Dark background for image container */
-    border-radius: 0; /* Removed round corners */
-    padding: 10px;
-    border: 1px solid #333333; /* Dark border */
-    animation: neon-glow 4s infinite alternate ease-in-out; /* Apply animation */
-    /* Add a basic lift shadow */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
-}
+    
+    
+    
 
-#animalImage {
-    border-radius: 0; /* Removed round corners */
-    display: block; 
-    max-width: 100%; 
-    height: auto; 
-    border: 1px solid #333333; /* Border for the image itself */
-}
 
-.refresh-button {
-    background-color: #D3D3D3; /* A soft, solid grey for the button base */
-    color: #333333; /* Dark grey text on the button */
-    border: none;
-    padding: 20px 30px;
-    border-radius: 50px; /* Round shape */
-    font-size: 1.2em;
-    cursor: pointer;
-    box-shadow: 
-        0 3px 8px rgba(0, 0, 0, 0.15), /* Soft outer shadow */
-        inset 0 1px 0 rgba(255, 255, 255, 0.5),
-        0 0 0 2px rgba(255, 99, 71, 0.1); /* Very subtle, light tomato red ring for "red color" hint */
-    transition: all 0.2s ease-in-out;
-    text-shadow: none; /* Remove text shadow */
-    border: 1px solid #C0C0C0; /* A slightly darker grey border */
 
-    position: relative; /* Needed for pseudo-element positioning */
-    overflow: hidden; /* Ensures glow doesn't extend beyond button bounds */
-    z-index: 1; /* Ensures button content is above glow */
-}
 
-.refresh-button::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(circle, rgba(255, 99, 71, 0.5) 0%, rgba(255, 99, 71, 0) 70%); /* Subtle red glow */
-    border-radius: 50%;
-    transform: translate(-50%, -50%) scale(0); /* Start hidden and small */
-    opacity: 0;
-    transition: transform 0.4s ease-out, opacity 0.4s ease-out; /* Smooth transition */
-    z-index: -1; /* Place behind button text */
-}
-
-.refresh-button:hover {
-    background-color: #C0C0C0; /* Slightly darker grey on hover */
-    box-shadow: 
-        0 5px 12px rgba(0, 0, 0, 0.2), 
-        inset 0 1px 0 rgba(255, 255, 255, 0.6),
-        0 0 0 2px rgba(255, 99, 71, 0.2); /* Slightly stronger red ring on hover */
-    transform: translateY(-1px); /* Slight lift effect */
-}
-
-.refresh-button:active {
-    background-color: #B0B0B0; /* Even darker grey when pressed */
-    box-shadow: 
-        0 1px 3px rgba(0, 0, 0, 0.2), 
-        inset 0 0 5px rgba(0, 0, 0, 0.2), /* Pressed in effect */
-        0 0 0 2px rgba(255, 99, 71, 0.1); /* Red ring remains subtle */
-    transform: translateY(0);
-}
-
-footer {
-    margin-top: 40px; 
-    font-size: 1em;
-    color: #666666; /* Medium grey for footer text */
-    padding: 10px 20px;
-    background-color: #1A1A1A; /* Dark background for footer */
-    border-radius: 0; /* Removed round corners */
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); 
-    border: 1px solid #333333; /* Dark border */
-}
-
-footer #visitorCount {
-    font-weight: bold;
-    color: #00FFFF; /* Neon Cyan for emphasis */
-}
