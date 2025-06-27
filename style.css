@@ -13,7 +13,7 @@ body {
 }
 
 .header-bubble {
-    background-color: #FFFFFF; /* White for a very clean, subtle look */
+    background-color: #FCD8CD; /* White for a very clean, subtle look */
     padding: 20px 40px;
     border-radius: 50px;
     /* Subtle shadow for a hint of 3D, without strong colors */
@@ -22,7 +22,7 @@ body {
         inset 0 0 5px rgba(255, 255, 255, 0.7); /* Subtle inner highlight */
     margin-bottom: 40px;
     text-align: center;
-    color: #333333; /* Dark grey text */
+    color: #687FE5; /* Dark grey text */
     text-shadow: none; /* Remove text shadow for cleaner look */
     border: 1px solid #E0E0E0; /* Very light grey border for definition */
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .image-container {
-    background-color: #FFFFFF; /* White background for image container */
+    background-color: #EBD6FB; /* White background for image container */
     border-radius: 15px; 
     padding: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Subtle shadow */
@@ -62,19 +62,19 @@ body {
         opacity: 0;
         transform: scale(0.8);
     }
-    50% {
+    30% {
         opacity: 0.7;
         transform: scale(1);
     }
-    100% {
+    87% {
         opacity: 0;
         transform: scale(1.2);
     }
 }
 
 .refresh-button {
-    background-color: #D3D3D3; /* A soft, solid grey for the button base */
-    color: #333333; /* Dark grey text on the button */
+    background-color: #687FE5; /* A soft, solid grey for the button base */
+    color: #FFFFFF; /* Dark grey text on the button */
     border: none;
     padding: 20px 30px;
     border-radius: 50px; /* Round shape */
@@ -82,7 +82,7 @@ body {
     cursor: pointer;
     /* Subtle 3D effect with shadows and a very faint "red" border for the color hint */
     box-shadow: 
-        0 3px 8px rgba(0, 0, 0, 0.15), /* Soft outer shadow */
+        0 3px 8px rgba(0, 0, 0.18, 0.15), /* Soft outer shadow */
         inset 0 1px 0 rgba(255, 255, 255, 0.5),
         0 0 0 2px rgba(255, 99, 71, 0.1); /* Very subtle, light tomato red ring for "red color" hint */
     transition: all 0.2s ease-in-out;
@@ -110,7 +110,7 @@ body {
 }
 
 .refresh-button:hover {
-    background-color: #C0C0C0; /* Slightly darker grey on hover */
+    background-color: #CD5656; /* Slightly darker grey on hover */
     box-shadow: 
         0 5px 12px rgba(0, 0, 0, 0.2), 
         inset 0 1px 0 rgba(255, 255, 255, 0.6),
@@ -119,12 +119,12 @@ body {
 }
 
 .refresh-button:hover::before {
-    transform: translate(-50%, -50%) scale(1.5); /* Expand and show glow */
+    transform: translate(-50%, -50%) scale(1.8); /* Expand and show glow */
     opacity: 1;
 }
 
 .refresh-button:active {
-    background-color: #B0B0B0; /* Even darker grey when pressed */
+    background-color: #9BC09C; /* Even darker grey when pressed */
     box-shadow: 
         0 1px 3px rgba(0, 0, 0, 0.2), 
         inset 0 0 5px rgba(0, 0, 0, 0.2), /* Pressed in effect */
@@ -147,34 +147,3 @@ footer #visitorCount {
     font-weight: bold;
     color: #555555; /* Slightly darker grey for emphasis */
 }
-/* ... (your existing CSS from previous steps) ... */
-
-/* Add this to the end of your style.css file */
-
-.running-text-container {
-    width: 100%; /* Or a fixed width like 800px to match image */
-    max-width: 800px; /* Constrain width if you want */
-    overflow: hidden; /* Hide anything outside this container */
-    background-color: #1A1A1A; /* Dark background for visibility */
-    padding: 10px 0; /* Vertical padding */
-    margin-top: 20px; /* Space above it */
-    border: 1px solid #333333; /* Border for definition */
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3); /* Subtle neon glow to match theme */
-}
-
-.running-text {
-    white-space: nowrap; /* Prevent text from wrapping */
-    animation: marquee 15s linear infinite; /* Apply the animation */
-    margin: 0; /* Remove default paragraph margin */
-    padding: 0 100%; /* Start text off-screen to the right */
-    display: inline-block; /* Ensure it scrolls correctly */
-    color: #00FFFF; /* Neon Cyan text */
-    font-size: 1.1em;
-}
-
-@keyframes marquee {
-    0% { transform: translateX(0%); } /* Start at its original position (off-screen right) */
-    100% { transform: translateX(-100%); } /* Move fully to the left (off-screen left) */
-}
-
-/* You might need to adjust widths/margins/positions depending on your exact layout goals */
