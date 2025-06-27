@@ -7,14 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // These are direct links to images of animals with their babies.
     // They are typically optimized by Pexels for a given size (e.g., w=800&h=600).
     const babyAnimalImages = [
-        "https://images.pexels.com/photos/17697488/pexels-photo-17697488.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1", // Deer stag and fawn
-        "https://images.pexels.com/photos/17411621/pexels-photo-17411621.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1", // Mother cow and calf
-        "https://images.pexels.com/photos/15948956/pexels-photo-15948956.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1", // Brown bear with cub
-        "https://images.pexels.com/photos/18260273/pexels-photo-18260273.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1", // Adult cat with kittens
-        "https://images.pexels.com/photos/10183053/pexels-photo-10183053.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1", // Mother sheep with lamb
-        "https://images.pexels.com/photos/16896001/pexels-photo-16896001/free-photo-of-close-up-of-mother-and-baby-monkeys.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1", // Mother and baby monkeys
-        "https://images.pexels.com/photos/14872134/pexels-photo-14872134.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1", // Alpaca with baby
-        "https://images.pexels.com/photos/16478952/pexels-photo-16478952/free-photo-of-two-fluffy-goslings-walking-on-green-grass.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=1" // Goose with goslings
+        "https://images.pexels.com/photos/2134246/pexels-photo-2134246.jpeg",
+        "https://images.pexels.com/photos/17213949/pexels-photo-17213949.jpeg",
+        "https://images.pexels.com/photos/28554641/pexels-photo-28554641.jpeg",
+        "https://images.pexels.com/photos/5125391/pexels-photo-5125391.jpeg",
+        "https://images.pexels.com/photos/10884443/pexels-photo-10884443.jpeg",
+        "https://images.pexels.com/photos/2134246/pexels-photo-2134246.jpeg",
+        "https://images.pexels.com/photos/1289845/pexels-photo-1289845.jpeg",
+        "https://images.pexels.com/photos/2677843/pexels-photo-2677843.jpeg"
     ];
 
     // --- Visitor Counter Logic ---
