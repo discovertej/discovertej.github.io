@@ -74,103 +74,67 @@ document.addEventListener('DOMContentLoaded', () => {
         "https://images.pexels.com/photos/4577791/pexels-photo-4577791.jpeg",
 
         "https://images.pexels.com/photos/3739343/pexels-photo-3739343.jpeg",
-
+  "https://images.pexels.com/photos/5373904/pexels-photo-5373904.jpeg",
+  "https://images.pexels.com/photos/4613306/pexels-photo-4613306.jpeg",
+  "https://images.pexels.com/photos/6128147/pexels-photo-6128147.jpeg",
+  "https://images.pexels.com/photos/6796619/pexels-photo-6796619.jpeg",
+  "https://images.pexels.com/photos/4577523/pexels-photo-4577523.jpeg",
+  "https://images.pexels.com/photos/3691279/pexels-photo-3691279.jpeg",
+  "https://images.pexels.com/photos/6551939/pexels-photo-6551939.jpeg",
+  "https://images.pexels.com/photos/18199980/pexels-photo-18199980.jpeg",
+  "https://images.pexels.com/photos/9001055/pexels-photo-9001055.jpeg",
+  "https://images.pexels.com/photos/30503871/pexels-photo-30503871.jpeg",
+  "https://images.pexels.com/photos/11760858/pexels-photo-11760858.jpeg",
+  "https://images.pexels.com/photos/7334642/pexels-photo-7334642.jpeg",
+  "https://images.pexels.com/photos/14974433/pexels-photo-14974433.jpeg",
         "https://images.pexels.com/photos/6551925/pexels-photo-6551925.jpeg",
-
         "https://images.pexels.com/photos/4577793/pexels-photo-4577793.jpeg",
-
         "https://images.pexels.com/photos/2409964/pexels-photo-2409964.jpeg",
-
         "https://images.pexels.com/photos/1907075/pexels-photo-1907075.jpeg",
-
         "https://images.pexels.com/photos/2870167/pexels-photo-2870167.jpeg",
-
         "https://images.pexels.com/photos/4577507/pexels-photo-4577507.jpeg",
-
         "https://images.pexels.com/photos/6551938/pexels-photo-6551938.jpeg",
-
         "https://images.pexels.com/photos/5985284/pexels-photo-5985284.jpeg",
-
         "https://images.pexels.com/photos/2085307/pexels-photo-2085307.jpeg",
-
         "https://images.pexels.com/photos/4577523/pexels-photo-4577523.jpeg",
-
         "https://images.pexels.com/photos/3723862/pexels-photo-3723862.jpeg",
-
         "https://images.pexels.com/photos/6551946/pexels-photo-6551946.jpeg",
-
         "https://images.pexels.com/photos/3751675/pexels-photo-3751675.jpeg",
-
         "https://images.pexels.com/photos/6551922/pexels-photo-6551922.jpeg",
-
         "https://images.pexels.com/photos/3751673/pexels-photo-3751673.jpeg",
-
         "https://images.pexels.com/photos/3751676/pexels-photo-3751676.jpeg",
-
         "https://images.pexels.com/photos/20792101/pexels-photo-20792101.jpeg",
-
         "https://images.pexels.com/photos/11760837/pexels-photo-11760837.jpeg",
-
         "https://images.pexels.com/photos/29146649/pexels-photo-29146649.jpeg",
-
         "https://images.pexels.com/photos/4012567/pexels-photo-4012567.jpeg",
-
         "https://images.pexels.com/photos/4251352/pexels-photo-4251352.jpeg",
-
         "https://images.pexels.com/photos/14803682/pexels-photo-14803682.jpeg",
-
         "https://images.pexels.com/photos/14803688/pexels-photo-14803688.jpeg",
-
         "https://images.pexels.com/photos/31370275/pexels-photo-31370275.jpeg",
-
         "https://images.pexels.com/photos/4440408/pexels-photo-4440408.jpeg",
-
         "https://images.pexels.com/photos/16591264/pexels-photo-16591264.jpeg",
-
         "https://images.pexels.com/photos/4440409/pexels-photo-4440409.jpeg",
-
         "https://images.pexels.com/photos/18551094/pexels-photo-18551094.jpeg",
-
         "https://images.pexels.com/photos/31370274/pexels-photo-31370274.jpeg",
-
         "https://images.pexels.com/photos/30705691/pexels-photo-30705691.jpeg",
-
         "https://images.pexels.com/photos/4251350/pexels-photo-4251350.jpeg",
-
         "https://images.pexels.com/photos/13681260/pexels-photo-13681260.jpeg",
-
         "https://images.pexels.com/photos/31025743/pexels-photo-31025743.jpeg",
-
         "https://images.pexels.com/photos/4012569/pexels-photo-4012569.jpeg",
-
         "https://images.pexels.com/photos/16591311/pexels-photo-16591311.jpeg",
-
         "https://images.pexels.com/photos/2134246/pexels-photo-2134246.jpeg", 
-
         "https://images.pexels.com/photos/17213949/pexels-photo-17213949.jpeg",     
-
-        "https://images.pexels.com/photos/28554641/pexels-photo-28554641.jpeg",   
-
+        "https://images.pexels.com/photos/28554641/pexels-photo-28554641.jpeg",      
         "https://images.pexels.com/photos/5125391/pexels-photo-5125391.jpeg",   
-
         "https://images.pexels.com/photos/10884443/pexels-photo-10884443.jpeg",  
-
         "https://images.pexels.com/photos/2134246/pexels-photo-2134246.jpeg",   
-
         "https://images.pexels.com/photos/1289845/pexels-photo-1289845.jpeg",    
-
         "https://images.pexels.com/photos/2677843/pexels-photo-2677843.jpeg",     
-
         "https://images.pexels.com/photos/65566/pexels-photo-65566.jpeg",      
-
         "https://images.pexels.com/photos/7001091/pexels-photo-7001091.jpeg",    
-
         "https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg",   
-
         "https://images.pexels.com/photos/3691288/pexels-photo-3691288.jpeg",    
-
         "https://images.pexels.com/photos/32287290/pexels-photo-32287290.jpeg",   
-
         "https://images.pexels.com/photos/12284846/pexels-photo-12284846.jpeg"
 
     ];
