@@ -11,6 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
         "Aha! Scan chesava.. 🐾 ",
 
         "You're quiet curious, aren't you?✨",
+        
+        " Elephants are better than FABIANS 🌽",
+        
+        "manaki manushultho intimate ga thiragadam oddhu kani elephants chusi time gadipedham.😏",
 
         "ANND!! Your fav animal is here ❤️",
 
