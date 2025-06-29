@@ -62,35 +62,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const babyAnimalImages = [
 
         "https://images.pexels.com/photos/53125/elephant-tusk-ivory-animal-53125.jpeg",
-
         "https://images.pexels.com/photos/35693/elephant-big-nature-wildlife.jpg",
-
         "https://images.pexels.com/photos/1750820/pexels-photo-1750820.jpeg",
-
         "https://images.pexels.com/photos/3739325/pexels-photo-3739325.jpeg",
-
         "https://images.pexels.com/photos/3850526/pexels-photo-3850526.jpeg",
-
         "https://images.pexels.com/photos/3565117/pexels-photo-3565117.jpeg",
-
         "https://images.pexels.com/photos/3567847/pexels-photo-3567847.jpeg",
-
         "https://images.pexels.com/photos/4577791/pexels-photo-4577791.jpeg",
-
         "https://images.pexels.com/photos/3739343/pexels-photo-3739343.jpeg",
-  "https://images.pexels.com/photos/5373904/pexels-photo-5373904.jpeg",
-  "https://images.pexels.com/photos/4613306/pexels-photo-4613306.jpeg",
-  "https://images.pexels.com/photos/6128147/pexels-photo-6128147.jpeg",
-  "https://images.pexels.com/photos/6796619/pexels-photo-6796619.jpeg",
-  "https://images.pexels.com/photos/4577523/pexels-photo-4577523.jpeg",
-  "https://images.pexels.com/photos/3691279/pexels-photo-3691279.jpeg",
-  "https://images.pexels.com/photos/6551939/pexels-photo-6551939.jpeg",
-  "https://images.pexels.com/photos/18199980/pexels-photo-18199980.jpeg",
-  "https://images.pexels.com/photos/9001055/pexels-photo-9001055.jpeg",
-  "https://images.pexels.com/photos/30503871/pexels-photo-30503871.jpeg",
-  "https://images.pexels.com/photos/11760858/pexels-photo-11760858.jpeg",
-  "https://images.pexels.com/photos/7334642/pexels-photo-7334642.jpeg",
-  "https://images.pexels.com/photos/14974433/pexels-photo-14974433.jpeg",
+        "https://images.pexels.com/photos/5373904/pexels-photo-5373904.jpeg",
+        "https://images.pexels.com/photos/4613306/pexels-photo-4613306.jpeg",
+        "https://images.pexels.com/photos/6128147/pexels-photo-6128147.jpeg",
+        "https://images.pexels.com/photos/6796619/pexels-photo-6796619.jpeg",
+        "https://images.pexels.com/photos/4577523/pexels-photo-4577523.jpeg",
+        "https://images.pexels.com/photos/3691279/pexels-photo-3691279.jpeg",
+        "https://images.pexels.com/photos/6551939/pexels-photo-6551939.jpeg",
+        "https://images.pexels.com/photos/18199980/pexels-photo-18199980.jpeg",
+        "https://images.pexels.com/photos/9001055/pexels-photo-9001055.jpeg",
+        "https://images.pexels.com/photos/30503871/pexels-photo-30503871.jpeg",
+        "https://images.pexels.com/photos/11760858/pexels-photo-11760858.jpeg",
+        "https://images.pexels.com/photos/7334642/pexels-photo-7334642.jpeg",
+        "https://images.pexels.com/photos/14974433/pexels-photo-14974433.jpeg",
         "https://images.pexels.com/photos/6551925/pexels-photo-6551925.jpeg",
         "https://images.pexels.com/photos/4577793/pexels-photo-4577793.jpeg",
         "https://images.pexels.com/photos/2409964/pexels-photo-2409964.jpeg",
