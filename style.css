@@ -89,12 +89,14 @@ body {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    
 #headTabMessages {
   font-family: 'Parisienne', cursive;
   font-size: 1.5rem;
-  text-align: center;
-  padding: 10px;
+  color: #5D3A00;
+  text-shadow: 1px 1px 2px #ffeccc;
 }
+    
 
 .refresh-button::before {
     content: '';
