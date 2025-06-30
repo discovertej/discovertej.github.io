@@ -1,3 +1,5 @@
+/* ==========  Base (desktop / tablet)  ========== */
+
 body {
     font-family: "Lucida Console", "Courier New", monospace;
     display: flex;
@@ -6,23 +8,22 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     margin: 0;
-    background-color: #FFF4A4; /* Very light grey, subtle background */
-    color: #16610E; /* Dark grey for primary text */
+    background-color: #FFF4A4;
+    color: #16610E;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .header-bubble {
-    background-color: #FED16A; /* Subtle background */
+    background-color: #FED16A;
     padding: 20px 40px;
     border-radius: 50px;
     box-shadow:
-        0 4px 8px rgba(0, 0, 0, 0.08), /* Soft outer shadow */
-        inset 0 0 5px rgba(255, 255, 255, 0.7); /* Inner highlight */
+        0 4px 8px rgba(0, 0, 0, 0.08),
+        inset 0 0 5px rgba(255, 255, 255, 0.7);
     margin-bottom: 40px;
     text-align: center;
-    color: #16610E; /* Text color */
-    text-shadow: none;
+    color: #16610E;
     border: 1px solid #E0E0E0;
 }
 
@@ -36,8 +37,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px; /* Space between image and button */
+    gap: 30px;
     flex-grow: 1;
+    width: 100%;
 }
 
 .image-container {
@@ -46,6 +48,8 @@ body {
     padding: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     border: 1px solid #E0E0E0;
+    max-width: 600px;          /* keeps images from stretching on big screens */
+    width: 100%;
 }
 
 #animalImage {
@@ -55,21 +59,7 @@ body {
     height: auto;
 }
 
-/* Keyframes for the glow animation */
-@keyframes pulse-glow {
-    0% {
-        opacity: 0;
-        transform: scale(0.8);
-    }
-    50% {
-        opacity: 0.7;
-        transform: scale(1);
-    }
-    100% {
-        opacity: 0;
-        transform: scale(1.2);
-    }
-}
+/* ✨ Button effects */
 
 .refresh-button {
     background-color: #D3D3D3;
@@ -84,14 +74,11 @@ body {
         inset 0 1px 0 rgba(255, 255, 255, 0.5),
         0 0 0 2px rgba(255, 99, 71, 0.1);
     transition: all 0.2s ease-in-out;
-    text-shadow: none;
     border: 1px solid #C0C0C0;
     position: relative;
     overflow: hidden;
     z-index: 1;
 }
-    
-    
 
 .refresh-button::before {
     content: '';
@@ -131,18 +118,63 @@ body {
     transform: translateY(0);
 }
 
+/* Parisienne heading */
 #headTabMessages {
-  font-family: 'Parisienne', cursive;
-  font-size: 1.5rem;
-  color: #5D3A00;
-  text-shadow: 1px 1px 2px #ffeccc;
+    font-family: 'Parisienne', cursive;
+    font-size: 1.5rem;
+    color: #5D3A00;
+    text-shadow: 1px 1px 2px #ffeccc;
 }
 
-
+/* Footer */
 footer {
     margin-top: 40px;
     font-size: 1em;
     color: #0D5EA6;
     padding: 10px 20px;
-    background: FFFFFF
+    background: #FFFFFF;
+}
+
+/* ==========  Mobile tweaks (≤ 600 px)  ========== */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 12px;                /* tighter margin on phones */
+    }
+
+    .header-bubble {
+        padding: 16px 24px;
+        border-radius: 40px;
+        margin-bottom: 28px;
+    }
+
+    .header-bubble h1 {
+        font-size: 1.9em;             /* shrink headline */
+        letter-spacing: 1px;
+    }
+
+    #headTabMessages {
+        font-size: 1.25rem;           /* headline inside bubble */
+    }
+
+    .content-area {
+        gap: 22px;
+    }
+
+    .image-container {
+        padding: 6px;
+        border-radius: 10px;
+    }
+
+    .refresh-button {
+        padding: 14px 24px;
+        font-size: 1rem;              /* smaller text on button */
+    }
+
+    footer {
+        margin-top: 28px;
+        font-size: 0.9em;
+        text-align: center;
+    }
 }
