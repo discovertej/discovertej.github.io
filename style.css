@@ -89,6 +89,7 @@ body {
     position: relative;
     overflow: hidden;
     z-index: 1;
+}
     
 #headTabMessages {
   font-family: 'Parisienne', cursive;
