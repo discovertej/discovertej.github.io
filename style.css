@@ -91,12 +91,6 @@ body {
     z-index: 1;
 }
     
-#headTabMessages {
-  font-family: 'Parisienne', cursive;
-  font-size: 1.5rem;
-  color: #5D3A00;
-  text-shadow: 1px 1px 2px #ffeccc;
-}
     
 
 .refresh-button::before {
@@ -137,7 +131,12 @@ body {
     transform: translateY(0);
 }
 
-
+#headTabMessages {
+  font-family: 'Parisienne', cursive;
+  font-size: 1.5rem;
+  color: #5D3A00;
+  text-shadow: 1px 1px 2px #ffeccc;
+}
 
 
 footer {
