@@ -129,10 +129,12 @@ body {
     transform: translateY(0);
 }
 #headTabMessages {
-  font-size: clamp(1rem, 4vw, 1.5rem); /* adjusts based on screen width */
+  font-family: 'Parisienne', cursive;
+  font-size: 1.5rem; /* adjust as needed */
   text-align: center;
   padding: 10px;
 }
+
 
 footer {
     margin-top: 40px;
