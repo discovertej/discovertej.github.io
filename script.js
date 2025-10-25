@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "ANND!! Your fav animal is here ❤️",
 
         "Edhoroju manam kuda thechukundham 🐶🐱",
-
+        
         "Your LUV for 🐘",
 
         "Your mood booster is here 🌈",
@@ -63,6 +63,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         "https://images.pexels.com/photos/53125/elephant-tusk-ivory-animal-53125.jpeg",
         "https://images.pexels.com/photos/35693/elephant-big-nature-wildlife.jpg",
+        "https://images.pexels.com/photos/3751672/pexels-photo-3751672.jpeg",
+        "https://images.pexels.com/photos/3691279/pexels-photo-3691279.jpeg",
+        "https://images.pexels.com/photos/33382573/pexels-photo-33382573.jpeg",
+        "https://images.pexels.com/photos/3798103/pexels-photo-3798103.jpeg",
+        "https://images.pexels.com/photos/15289527/pexels-photo-15289527.jpeg",
+        "https://images.pexels.com/photos/33790655/pexels-photo-33790655.jpeg",
+        "https://images.pexels.com/photos/13681260/pexels-photo-13681260.jpeg",
+        "https://images.pexels.com/photos/4012569/pexels-photo-4012569.jpeg",
+        "https://images.pexels.com/photos/8235420/pexels-photo-8235420.jpeg",
         "https://images.pexels.com/photos/1750820/pexels-photo-1750820.jpeg",
         "https://images.pexels.com/photos/3739325/pexels-photo-3739325.jpeg",
         "https://images.pexels.com/photos/3850526/pexels-photo-3850526.jpeg",
