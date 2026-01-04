@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const headTabMessages = [
 
-        "Aha! Scan chesava.. 🐾 ",
+        "Manam yeppudu kalusthunnam??🐾 ",
 
         "You're quiet curious, aren't you?✨",
         
@@ -30,9 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         " Elephants don't play with skinny ppl, thinu sarriga🍅",
 
-        "Elephant inka nuvvu Matching matching 👀",
+        "Elephants prefer PEACE unlike you 👀",
 
-        " Dhanni chusi nerchuko ela thinadam🌵",
+        " Dhanni chusi nerchuko thinadam🌵",
 
         " Urikeee elephants kaadhu 40LPA kottu💸",
 
@@ -141,7 +141,18 @@ document.addEventListener('DOMContentLoaded', () => {
         "https://images.pexels.com/photos/3691288/pexels-photo-3691288.jpeg",    
         "https://images.pexels.com/photos/32287290/pexels-photo-32287290.jpeg",   
         "https://images.pexels.com/photos/12284846/pexels-photo-12284846.jpeg"
-
+        "https://images.pexels.com/photos/20729853/pexels-photo-20729853.jpeg"
+        "https://images.pexels.com/photos/14776299/pexels-photo-14776299.jpeg"
+        "https://images.pexels.com/photos/14762745/pexels-photo-14762745.jpeg"
+        "https://images.pexels.com/photos/3751675/pexels-photo-3751675.jpeg"
+        "https://images.pexels.com/photos/3691813/pexels-photo-3691813.jpeg"
+        "https://images.pexels.com/photos/4440409/pexels-photo-4440409.jpeg"
+        "https://images.pexels.com/photos/3751673/pexels-photo-3751673.jpeg"
+        "https://images.pexels.com/photos/4440408/pexels-photo-4440408.jpeg"
+        "https://images.pexels.com/photos/16355595/pexels-photo-16355595.jpeg"
+        "https://images.pexels.com/photos/13289268/pexels-photo-13289268.jpeg"
+        "https://images.pexels.com/photos/3798103/pexels-photo-3798103.jpeg"
+        "https://images.pexels.com/photos/8682567/pexels-photo-8682567.jpeg"
     ];
 
 
